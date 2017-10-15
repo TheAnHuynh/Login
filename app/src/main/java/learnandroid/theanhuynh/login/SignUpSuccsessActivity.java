@@ -34,8 +34,7 @@ public class SignUpSuccsessActivity extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(SignUpSuccsessActivity.this,MainActivity.class);
-                startActivity(i);
+                finish();
             }
         });
     }
